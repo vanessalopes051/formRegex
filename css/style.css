@@ -1,0 +1,130 @@
+
+/*https://www.horadecodar.com.br/2020/05/05/como-fazer-um-tooltip-com-css-puro/*/
+@font-face {
+    font-family: Cicle;
+    src: url(fonts/Cicle-Fina.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin:0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cicle, times, serif;
+    font-weight: normal;
+    color:white;
+}
+
+body{
+    background-color: #1B2025;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main.container{
+    background-color: #191919;
+    margin-top: 10vh;
+    min-width: 52vh;
+    min-height: 70vh;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+main h2{
+    color:#8f329d;
+    padding: 10px;
+    font-family: Cicle, times, serif;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+}
+
+.input-field{
+    position:relative;
+}
+
+.input-field input{
+    outline: none;
+    background-color: #191919;
+    height: 35px;
+    width: 100%;
+    border: 0.1px solid #8F329D ;
+    margin: 0.7em auto 0.5em;
+}
+
+.input-field input::placeholder{
+    font-size: 2.2vh;
+    font-weight: normal;
+    color: #A0A0A0;
+    padding: 3vh;
+}
+
+input.error{
+    border: 0.1px solid red ;
+}
+
+input.valido{
+    border: 0.1px solid green ;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border:none;
+    transition: 0.2s;
+    opacity: .2;
+    width: 50px;
+    height: 50px;
+}
+
+i{
+    float: right;
+    cursor: pointer;
+    display: flex;
+    background-color: transparent;
+    transition: 0.2s;
+    opacity: .2;
+    margin: -12% 3% 0 0;
+}
+
+#hide{
+    display: none;
+}
+
+#show{
+    display: inline-block;
+}
+
+i.fas{
+    margin: -12% -7% 0 0;
+}
+
+div.tooltip span {
+    position: absolute;
+    text-align: left;
+    visibility: hidden;
+    background-color: #474747;
+    color: #FFF;
+    padding: 10px 10px;
+  }
+
+div.tooltip span:after {
+    content: '';
+    position: absolute;
+  }
+
+div:hover.tooltip span{
+    visibility: visible;
+    opacity: 0.9;
+    top: 10px;
+    left: 110%;
+    min-width: 25vh;
+  }
+
+
+  

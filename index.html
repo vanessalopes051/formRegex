@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <title>Formulário Regex</title>
+</head>
+
+<body>
+    <main class="container">
+        <h2>Formulário Regex</h2>
+        <div class="form">
+            <div class="input-field">
+                <input type="text" id="nome" name="nome" placeholder="Primeiro e último nome:">
+                <div class="tooltip">
+                    <i class="fas fa-question"></i>
+                    <span>Insira apenas seu primeiro e último nome. <br>Ex. Fulano Beltrano</span>
+                </div>
+            </div>
+
+            <div class="input-field">
+                <input type="text" id="email" name="email" placeholder="Insira seu email">
+                <div class="tooltip">
+                    <i class="fas fa-question"></i>
+                    <span>O email deve terminar com .br <br> Ex. email@email.br</span>
+                </div>
+            </div>
+
+            <div class="input-field">
+                <input type="password" id="senha" name="senha" placeholder="Insira sua senha">
+                <i class="far fa-eye-slash" id="hide" onclick="hideShowPassword()"></i>
+                <i class="far fa-eye" id="show" onclick="hideShowPassword()"></i>
+                <div class="tooltip">
+                    <i class="fas fa-question"></i>
+                    <span>A senha deve possuir obrigatoriamente letras maiúsculas e números</span>
+                </div>
+            </div>
+
+            <div class="input-field">
+                <input type="text" id="CPF" name="CPF" placeholder="Insira seu CPF">
+                <div class="tooltip">
+                    <i class="fas fa-question"></i>
+                    <span>Insira o CPF de acordo com o seguinte formato 000.000.000-00.</span>
+                </div>
+            </div>
+
+            <div class="input-field">
+                <input type="text" id="fone" name="fone" placeholder="Insira seu telefone">
+                <div class="tooltip">
+                    <i class="fas fa-question"></i>
+                    <span>Insira o DD e número do telefone. <br> Ex. (99) 99999-9999 <br> 99 99999999</span>
+                </div>
+            </div>
+
+            <div class="input-field">
+                <input type="text" id="dataHora" name="dataHora" placeholder="Insira a data e hora">
+                <div class="tooltip">
+                    <i class="fas fa-question"></i>
+                    <span>Insira data e hora no seguinte formato. <br> 31/08/2019 20:14:55</span>
+                </div>
+            </div>
+
+            <div class="input-field">
+                <input type="text" id="numReal" name="numReal" placeholder="Insisra um número real">
+            </div>
+        </div>
+
+
+        </div>
+        <script src="js/regex.js"></script>
+        <script src="js/js.js"></script>
+</body>
+
+</html>
