@@ -1,14 +1,7 @@
 
-/*const btn_valida_nome = document.querySelector("#btn_valida_nome")
-const btn_valida_email = document.querySelector("#btn_valida_email")*/
-
-const nome = document.getElementById("nome")
-const email = document.getElementById("email")
-const senha = document.getElementById("senha")
-const CPF = document.getElementById("CPF")
-
+//FUNÇÃO VALIDA NOME
 nome.addEventListener("blur", function validaNome(){
-    const regexNome = /^(([A-Z]{1})([a-z]+) ([A-Z]{1})([a-z]+))$/
+    const regexNome = /^((([A-Z]{1})([a-z]+)) (([A-Z]{1})([a-z]+)))$/
 
     if(!regexNome.test(nome.value)){
         nome.classList.add("error")
@@ -19,9 +12,9 @@ nome.addEventListener("blur", function validaNome(){
     }
 })
 
-
+//FUNÇÃO VALIDA EMAIL
 email.addEventListener("blur", function validaEmail(){
-    const regexEmail = /^([a-z]+@[a-z\.]+[\.]br{1})/
+    const regexEmail = /^([a-z]+@[a-z]+[\.]br{1}$)/
 
     if(!regexEmail.test(email.value)){
         email.classList.add("error")
@@ -33,6 +26,7 @@ email.addEventListener("blur", function validaEmail(){
 })
 
 
+//FUNÇÃO VALIDA SENHA
 senha.addEventListener("blur", function validaSenha(){
     const regexSenha = /(^([a-z]?)(?=.*[A-Z])(?=.*[0-9])).{8}$/
 
@@ -46,6 +40,7 @@ senha.addEventListener("blur", function validaSenha(){
 })
 
 
+//FUNÇÃO VALIDA CPF
 CPF.addEventListener("blur", function validaCPF(){
     const regexCPF = /(([0-9]{3}).){2}([0-9]{3})-([0-9]{2})$/
 
@@ -59,8 +54,9 @@ CPF.addEventListener("blur", function validaCPF(){
 })
 
 
+//FUNÇÃO VALIDA TELEFONE
 fone.addEventListener("blur", function validaFone(){
-    const regexFone = /((\(([0-9]{2})\)) 9([0-9]{4})(-{0,1})([0-9]{4}))|(([0-9]{2}) 9([0-9]{4})([0-9]{4}))/
+    const regexFone = /((\(([0-9]{2})\)) 9([0-9]{4})(-{0,1})([0-9]{4})$)|(([0-9]{2}) 9([0-9]{8})$)/
 
     if(!regexFone.test(fone.value)){
         fone.classList.add("error")
@@ -72,6 +68,7 @@ fone.addEventListener("blur", function validaFone(){
 })
 
 
+//FUNÇÃO VALIDA DATA E HORA
 dataHora.addEventListener("blur", function validaDataHora(){
     const regexDataHora = /(([0-9]{2})\/){2}([0-9]{4}) (([0-9]{2}):){2}([0-9]{2})$/
 
@@ -84,6 +81,8 @@ dataHora.addEventListener("blur", function validaDataHora(){
     }
 })
 
+
+//FUNÇÃO VALIDA NUMERO REAL
 numReal.addEventListener("blur", function validaNumReal(){
     const regexNumReal = /^[-+]?[0-9]+$|^[-+]?[0-9]+\.?[0-9]+$/
 

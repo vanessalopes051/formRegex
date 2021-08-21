@@ -89,7 +89,8 @@ i{
     background-color: transparent;
     transition: 0.2s;
     opacity: .2;
-    margin: -12% 3% 0 0;
+    margin: -10% 3% 0 0;
+  position: relative;
 }
 
 #hide{
