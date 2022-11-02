@@ -8,24 +8,12 @@
 <li>Bootstrap 4.3.1</li>
 <li>JavaScript</li>
 
-<h3>Expressões regulares desenvolvidas </h3>
-<li>Expressão Regular: Nome</li>
-A máscara para validação de nome é composta basicamente por um padrão que se repete duas vezes,uma vez para o nome e outra vez para o sobrenome.
-() = Os parênteses iniciam agrupamentos.
-([A-Z]{1}) = Aceita apenas um símbolo maiúsculo.
-([a-z]+) = Aceita de um a vários símbolos minúsculos
-Após esse agrupamento a sentença aceita exatamente um espaço, por fim o padrão ([A-Z]{1})([a-z]+)) se repete para o sobrenome.
-/^((([A-Z]{1})([a-z]+)) (([A-Z]{1})([a-z]+)))$/
-
+<h4>Observações</h4>
+Foram desenvolvidas sete expressões regulares baseadas em requistos pré estabelecidos. Segue o quadra das especificação das máscaras de validação.
 <br>
-
-<li>Expressão Regular: Email</li>
-[a-z]+ = Aceita de um a vários símbolos minúsculos.
-@ = Aceita exatamente um símbolo “@”.
-[a-z]+ = Aceita de um a vários símbolos minúsculos.
-[\.]br{1} = Aceita exatamente 1 símbolo “.” seguido da string “br”.
-/^([a-z]+@[a-z]+[\.]br{1})$/
-
+![image](https://user-images.githubusercontent.com/54334704/199526642-3a24bed2-bc58-4d0d-bfd6-4ac74e1c4a55.png)
+![image](https://user-images.githubusercontent.com/54334704/199526772-03b36748-5370-445a-968d-a7f1e9353d3c.png)
+![image](https://user-images.githubusercontent.com/54334704/199526842-3687f693-7800-4646-ad3d-6a1e87b306a3.png)
 
 https://vanessalopes051.github.io/formRegex/
 
