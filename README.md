@@ -1,5 +1,8 @@
 <h1> Relatório técnico do desenvolvimento de máscaras de validação por meio de expressões regulares.</h1>
  <p>Este trabalho apresenta um relatório técnico que destaca os procedimentos realizados para o desenvolvimento de máscaras de validação por meio de expressões regulares, além de apresentar seus respectivos testes.</p>
+
+<h4>Relatório Completo</h4>
+https://docs.google.com/document/d/1VhrNIBZbusmjhMGCKrmhmxlJuWGeoeVIuSCqHI5bv6A/edit?usp=sharing
  
 <h3>Tecnologias Utilizadas</h3>
 <li><strong>Regex Tester:</strong> Para desenvolver as expressões regulares foi utilizado o site Regex Tester, um testador de expressão regular com destaque de sintaxe, suporte a PHP / PCRE e JS.</li>
