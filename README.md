@@ -8,13 +8,14 @@
 <li>Bootstrap 4.3.1</li>
 <li>JavaScript</li>
 
-<h4>Observações</h4>
+<h3>Especificação das máscaras de validação</h3>
 Foram desenvolvidas sete expressões regulares baseadas em requistos pré estabelecidos. Segue o quadra das especificação das máscaras de validação.
 <br>
 <img src="https://user-images.githubusercontent.com/54334704/199526642-3a24bed2-bc58-4d0d-bfd6-4ac74e1c4a55.png">
 <img src="https://user-images.githubusercontent.com/54334704/199526772-03b36748-5370-445a-968d-a7f1e9353d3c.png">
 <img src="https://user-images.githubusercontent.com/54334704/199526842-3687f693-7800-4646-ad3d-6a1e87b306a3.png">
 
+<h3>Testes</h3>
 https://vanessalopes051.github.io/formRegex/
 
 
