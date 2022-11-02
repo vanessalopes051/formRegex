@@ -16,6 +16,13 @@ Foram desenvolvidas sete expressões regulares baseadas em requistos pré estabe
 <img src="https://user-images.githubusercontent.com/54334704/199526842-3687f693-7800-4646-ad3d-6a1e87b306a3.png">
 
 <h3>Testes</h3>
+<p>Front desenvolvido para testar as expressões, onde cada um dos campos utiliza uma máscara para validar a entrada de dados.</p>
+<br>
 https://vanessalopes051.github.io/formRegex/
+<img src="https://user-images.githubusercontent.com/54334704/199528019-e57ee284-1a68-4a82-880e-6bb139d070d5.png">
+<br>
+<p>A imagem abaixo apresenta alguns testes realizados.</p>
+<img src="https://user-images.githubusercontent.com/54334704/199529426-a067e5ef-898f-4ab7-b752-05f07a796782.png">
+
 
 
