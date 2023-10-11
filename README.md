@@ -1,6 +1,9 @@
 <h1> Relatório técnico do desenvolvimento de máscaras de validação por meio de expressões regulares.</h1>
  <p>Este trabalho apresenta um relatório técnico que destaca os procedimentos realizados para o desenvolvimento de máscaras de validação por meio de expressões regulares, além de apresentar seus respectivos testes.</p>
-
+<br>
+Veja: https://vanessalopes051.github.io/formRegex/
+<br>
+<br>
 <h4>Relatório Completo</h4>
 https://docs.google.com/document/d/1VhrNIBZbusmjhMGCKrmhmxlJuWGeoeVIuSCqHI5bv6A/edit?usp=sharing
  
@@ -21,7 +24,7 @@ Foram desenvolvidas sete expressões regulares baseadas em requistos pré estabe
 <h3>Testes</h3>
 <p>Front desenvolvido para testar as expressões, onde cada um dos campos utiliza uma máscara para validar a entrada de dados.</p>
 <br>
-https://vanessalopes051.github.io/formRegex/
+
 <img src="https://user-images.githubusercontent.com/54334704/199528019-e57ee284-1a68-4a82-880e-6bb139d070d5.png">
 <br>
 <p>A imagem abaixo apresenta alguns testes realizados.</p>
